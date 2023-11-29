@@ -1,12 +1,37 @@
-version: "3.6"
+version: "3.9"
 
 services:
- web:
+  web:
+    container_name: crm_app
+    image: crm_app:latest
     build:
      context: .
      dockerfile: Dockerfile
-    command: ./manage.py runserver 0.0.0.0:8000
+    command: >
+      sh -c "python manage.py migrate &&
+             python manage.py runserver 0.0.0.0:8000"
     volumes:
-      - ./:/code
+      - ./:/app
     ports:
       - "80:8000"
+    depends_on:
+      - db
+
+  db:
+    image: postgres:14.8
+    container_name: crm_postgres
+    ports:
+       - "5432:5432"
+    environment:
+       - POSTGRES_DB=cms_db
+       - POSTGRES_USER=postgres
+       - POSTGRES_PASSWORD=password
+    volumes:
+       - .data/db:/var/lib/postgres/data
+    healthcheck:
+       test: ["CMD-SHELL", "pg_isready --quit || exit 1"]
+       interval: 30s
+       timeout: 10s
+       retries: 10
+       start_period: 15s
+    restart: on-failure

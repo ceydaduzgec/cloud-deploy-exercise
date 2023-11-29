@@ -1,13 +1,13 @@
 FROM python:3.9
 
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+
 WORKDIR /app
-COPY . .
 
-# install requirements
+COPY requirements.txt /app/
 RUN pip install -r requirements.txt
+COPY . /app/
 
-# migrations
-RUN python manage.py makemigrations content
-RUN python manage.py migrate
-# static
-RUN python manage.py collectstatic --noinput
+#RUN pip install --upgrade pip
+#RUN pip install --upgrade setuptools
