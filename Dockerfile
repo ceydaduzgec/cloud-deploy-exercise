@@ -12,4 +12,11 @@ RUN pip install --upgrade pip
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+COPY entrypoint.sh .
+# ensure that the script does not have Windows-style line endings
+#RUN sed -i 's/\r$//g' /app/entrypoint.sh
+RUN chmod +x entrypoint.sh
+
+ENTRYPOINT ["/app/entrypoint.sh"]
+
 COPY . .
