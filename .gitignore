@@ -63,7 +63,7 @@ cover/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
-content/migrations/*
+#content/migrations/*
 static/*
 media/*
 
@@ -111,7 +111,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+*.env
 .venv
 .venv/*
 env/
@@ -150,3 +150,4 @@ cython_debug/
 
 # DB
 db.sqlite3
+postgres-data/*
