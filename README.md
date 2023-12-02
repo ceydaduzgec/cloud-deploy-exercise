@@ -1,10 +1,10 @@
-# PyEditorial
+# pyeditorial
 A free, open-source Blog CMS based on the "Django" and "Editorial" HTML5 theme.
 
-![](https://img.shields.io/github/stars/mavenium/PyEditorial) 
-[![](https://img.shields.io/github/forks/mavenium/PyEditorial)](https://github.com/mavenium/PyEditorial/fork)
-[![](https://img.shields.io/github/issues/mavenium/PyEditorial)](https://github.com/mavenium/PyEditorial/issues)
-![](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fmavenium%2FPyEditorial)
+![](https://img.shields.io/github/stars/mavenium/pyeditorial) 
+[![](https://img.shields.io/github/forks/mavenium/pyeditorial)](https://github.com/mavenium/pyeditorial/fork)
+[![](https://img.shields.io/github/issues/mavenium/pyeditorial)](https://github.com/mavenium/pyeditorial/issues)
+![](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fmavenium%2Fpyeditorial)
 
 ------------
 ### Features
@@ -37,40 +37,40 @@ A free, open-source Blog CMS based on the "Django" and "Editorial" HTML5 theme.
 ------------
 ### Screenshots
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Index.png)
+![](https://raw.githubusercontent.com/mavenium/pyeditorial/master/Screenshots/Index.png)
 > Index Page
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Archive.png)
+![](https://raw.githubusercontent.com/mavenium/pyeditorial/master/Screenshots/Archive.png)
 > Archive Page
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Blog-Single.png)
+![](https://raw.githubusercontent.com/mavenium/pyeditorial/master/Screenshots/Blog-Single.png)
 > Blog Single Page
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Podcast-Single.png)
+![](https://raw.githubusercontent.com/mavenium/pyeditorial/master/Screenshots/Podcast-Single.png)
 > Podcast Single Page
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Videocast-Single.png)
+![](https://raw.githubusercontent.com/mavenium/pyeditorial/master/Screenshots/Videocast-Single.png)
 > Videocast Single Page
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Admin.png)
+![](https://raw.githubusercontent.com/mavenium/pyeditorial/master/Screenshots/Admin.png)
 > Admin Area
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Constance.png)
+![](https://raw.githubusercontent.com/mavenium/pyeditorial/master/Screenshots/Constance.png)
 > Dynamic Django Settings
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Blog-Admin.png)
+![](https://raw.githubusercontent.com/mavenium/pyeditorial/master/Screenshots/Blog-Admin.png)
 > Blog Section
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Add-Blog.png)
+![](https://raw.githubusercontent.com/mavenium/pyeditorial/master/Screenshots/Add-Blog.png)
 > Add Blog
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Add-Videocast.png)
+![](https://raw.githubusercontent.com/mavenium/pyeditorial/master/Screenshots/Add-Videocast.png)
 > Add Videocast
 
-![](https://github.com/mavenium/PyEditorial/blob/master/Screenshots/Add-Skill.png)
+![](https://github.com/mavenium/pyeditorial/blob/master/Screenshots/Add-Skill.png)
 > Add Skill
 
-![](https://raw.githubusercontent.com/mavenium/PyEditorial/master/Screenshots/Add-Podcast.png)
+![](https://raw.githubusercontent.com/mavenium/pyeditorial/master/Screenshots/Add-Podcast.png)
 > Add Podcast
 
 ------------
@@ -79,8 +79,8 @@ A free, open-source Blog CMS based on the "Django" and "Editorial" HTML5 theme.
 1. Install [git](https://git-scm.com/downloads),[python3](https://www.python.org/downloads/), `pip3`, [virtualenv](https://pypi.org/project/virtualenv/) in your operating system
 2. Create a development environment ready by using these commands
 ```
-git clone https://github.com/mavenium/PyEditorial		# clone the project
-cd PyEditorial		                                        # go to the project DIR
+git clone https://github.com/mavenium/pyeditorial		# clone the project
+cd pyeditorial		                                        # go to the project DIR
 virtualenv -p python3 .venv		                        # Create virtualenv named .venv
 source .venv/bin/activate		                        # Active virtualenv named .venv
 pip install -r requirements.txt		                        # Install project requirements in .venv
