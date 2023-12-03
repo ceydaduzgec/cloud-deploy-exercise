@@ -151,3 +151,5 @@ cython_debug/
 # DB
 db.sqlite3
 postgres-data/*
+.data/*
+data/*
