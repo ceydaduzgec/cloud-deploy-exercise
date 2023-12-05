@@ -6,6 +6,7 @@
 [ ]- Update python docker file to address vulnerabilities
 [ ]- Use HTTPS while serving the application
 [ ]- Add Github actions for CI/CD
+[ ]- Seperate dev requirements
 
 
 
