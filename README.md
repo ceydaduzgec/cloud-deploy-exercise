@@ -1,4 +1,5 @@
 # pyeditorial
+
 A free, open-source Blog CMS based on the "Django" and "Editorial" HTML5 theme.
 
 ![](https://img.shields.io/github/stars/mavenium/pyeditorial)
@@ -9,20 +10,32 @@ A free, open-source Blog CMS based on the "Django" and "Editorial" HTML5 theme.
 More about the project can be found on the [Wiki page](https://github.com/ceydaduzgec/dev-environment-setup/wiki/).
 
 ------------
-### How to install and run (GNU/Linux and Mac) with Docker
+
+## How to install and run (GNU/Linux and Mac) with Docker
 
 1. Make sure that you have [git](https://git-scm.com/downloads) and [bash](https://www.gnu.org/software/bash/) installed.
-2. Create a development environment ready by using these commands
+On Ubuntu, you can install them by using these commands:
+
+```bash
+sudo apt update -y && sudo apt install -y git bash
 ```
+
+2. Create a development environment ready by using these commands
+
+```bash
 git clone https://github.com/ceydaduzgec/dev-environment-setup.git
 ```
+
 3. Run one of the following commands depending on your OS to start the project
-```
+
+```bash
 bash tools/start-macos.sh
 bash tools/start-linux.sh
 ```
+
 4. Go to  `http://127.0.0.1:80/` or just type `localhost` in your browser to use project
 
 ------------
+
 - [Notes](https://github.com/ceydaduzgec/dev-environment-setup/blob/master/docs/notes.md)
 - [Linting](https://github.com/ceydaduzgec/dev-environment-setup/blob/master/docs/linting.md)

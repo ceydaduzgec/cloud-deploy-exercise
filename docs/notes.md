@@ -10,6 +10,7 @@
 - [x] Add Github actions for CI/CD
 - [ ] Separate dev requirements
 - [ ] Do not use root user in docker
+- [ ] Test linux script on linux machine
 
 
 ## Links
