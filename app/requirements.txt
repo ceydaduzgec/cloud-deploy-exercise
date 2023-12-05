@@ -10,3 +10,8 @@ pytz==2020.4
 six==1.15.0
 sqlparse==0.4.4
 psycopg2-binary==2.9.9
+
+# Dev requirements
+pre-commit==3.5.0
+flake8==6.1.0
+isort==5.12.0
