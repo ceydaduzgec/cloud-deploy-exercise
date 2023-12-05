@@ -6,49 +6,20 @@ A free, open-source Blog CMS based on the "Django" and "Editorial" HTML5 theme.
 [![](https://img.shields.io/github/issues/mavenium/pyeditorial)](https://github.com/mavenium/pyeditorial/issues)
 ![](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fmavenium%2Fpyeditorial)
 
+More about the project can be found on the [Wiki page](https://github.com/ceydaduzgec/dev-environment-setup/wiki/).
+
 ------------
-
-### Special Thanks
-
-| Python | Django | Pycharm |
-| ------------- | ------------- | ------------- |
-| [![](https://s17.picofile.com/file/8418101118/python.png)](https://www.python.org "Python")  | [![](https://i.ibb.co/KbJPgRr/django.png)](https://www.djangoproject.com "Django")  | [![](https://s17.picofile.com/file/8418101034/pycharm.png)](https://www.jetbrains.com/pycharm/ "Pycharm")  |
-
-### How to install and run (GNU/Linux and Mac)
+### How to install and run (GNU/Linux and Mac) with Docker
 
 1. Install [git](https://git-scm.com/downloads),[python3](https://www.python.org/downloads/), `pip3`, [virtualenv](https://pypi.org/project/virtualenv/) in your operating system
 2. Create a development environment ready by using these commands
 ```
-git clone https://github.com/mavenium/pyeditorial		# clone the project
-cd pyeditorial		                                        # go to the project DIR
-virtualenv -p python3 .venv		                        # Create virtualenv named .venv
-source .venv/bin/activate		                        # Active virtualenv named .venv
-pip install -r requirements.txt		                        # Install project requirements in .venv
-python manage.py makemigrations		                        # Create migrations files
-python manage.py migrate		                        # Create database tables
-python manage.py collectstatic		                        # Create statics files
-python manage.py runserver		                        # Run the project
-```
-3. Go to  `http://127.0.0.1:8000/` to use project
-------------
-------------
-### Run with Docker
-
-1. Install Docker on your operating system
-2. Install docker-compose on your operating system
-3. Run the following command to create and run the project
-```
-docker-compose up [-d]
+git clone https://github.com/ceydaduzgec/dev-environment-setup.git
+bash start.sh
 ```
 3. Go to  `http://127.0.0.1:80/` or just type `localhost` in your browser to use project
-------------
-
-### Notes
-The Editorial template is released under license "Creative Commons Attribution 3.0 Unported".
 
 ------------
-### TODO list
-
-- [x] Create search section
-- [x] Create user Login/Logout forms in front-end
-- [x] Create dynamic forms to add contents in front-end
+- [Notes](https://github.com/ceydaduzgec/dev-environment-setup/blob/master/docs/notes.md)
+- [Linting](https://github.com/ceydaduzgec/dev-environment-setup/blob/master/docs/linting.md)
+------------

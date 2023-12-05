@@ -1,15 +1,17 @@
-# Enhancements
+# Notes
 
-[ ]- Use django-environ
-[ ]- Seperate dev, prod, test environments
-[ ]- Move content inside the pyeditorial
-[ ]- Update python docker file to address vulnerabilities
-[ ]- Use HTTPS while serving the application
-[ ]- Add Github actions for CI/CD
-[ ]- Seperate dev requirements
+## Potential Enhancements
 
+- [ ] Use django-environ
+- [ ] Separate dev, prod, test environments
+- [ ] Move content inside the pyeditorial
+- [ ] Update python docker file to address vulnerabilities
+- [ ] Use HTTPS while serving the application
+- [ ] Add Github actions for CI/CD
+- [ ] Separate dev requirements
 
+## Links
 
-# Links
-- https://realpython.com/django-nginx-gunicorn/
-- https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/
+- [Django Nginx Gunicorn](https://realpython.com/django-nginx-gunicorn/)
+- [Dockerizing Django with Postgres, Gunicorn, and Nginx](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/)
+- [Dockerizing Django with Postgres, Gunicorn, and Traefik](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-traefik/)
