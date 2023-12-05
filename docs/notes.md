@@ -4,11 +4,13 @@
 
 - [ ] Use django-environ
 - [ ] Separate dev, prod, test environments
-- [ ] Move content inside the pyeditorial
+- [x] Move content inside the pyeditorial
 - [ ] Update python docker file to address vulnerabilities
 - [ ] Use HTTPS while serving the application
-- [ ] Add Github actions for CI/CD
+- [x] Add Github actions for CI/CD
 - [ ] Separate dev requirements
+- [ ] Do not use root user in docker
+
 
 ## Links
 

@@ -154,3 +154,9 @@ db.sqlite3
 postgres-data/*
 */.data/*
 */data/*
+
+# SSL
+*.key
+*.pem
+*.crt
+*.csr
