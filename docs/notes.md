@@ -2,16 +2,17 @@
 
 ## Potential Enhancements
 
-- [ ] Use django-environ
+- [ ] Use django-environ, config or similar to manage settings
 - [ ] Separate dev, prod, test environments
-- [x] Move content inside the pyeditorial
+- [x] Move content inside the pyeditorial --> app folder
 - [ ] Update python docker file to address vulnerabilities
-- [ ] Use HTTPS while serving the application
+- [x] Use HTTPS while serving the application
 - [x] Add Github actions for CI/CD
 - [ ] Separate dev requirements
 - [ ] Do not use root user in docker
-- [ ] Test linux script on linux machine
-
+- [x] Test linux script on linux machine
+- [ ] Add gunicorn
+- [ ] Delete unused dangling images
 
 ## Links
 

@@ -29,8 +29,5 @@ openssl req -new -key private-key.key -out certificate.csr -subj "/CN=localhost"
 openssl x509 -req -days 365 -in certificate.csr -signkey private-key.key -out certificate.crt
 cd ..
 
-echo "Going to app directory"
-cd app
-
 echo "Run with Docker"
-docker-compose -f docker-compose-dev.yml up
+docker-compose -f docker-compose-dev.yml up --build

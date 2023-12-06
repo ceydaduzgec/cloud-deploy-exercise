@@ -31,4 +31,4 @@ openssl x509 -req -days 365 -in certificate.csr -signkey private-key.key -out ce
 cd ..
 
 echo "Run with Docker"
-docker-compose -f docker-compose-dev.yml up
+docker-compose -f docker-compose-dev.yml up --build

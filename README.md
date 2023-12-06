@@ -2,6 +2,8 @@
 
 A free, open-source Blog CMS based on the "Django" and "Editorial" HTML5 theme.
 
+Deployed on [AWS] without HTTPS (ec2-51-20-142-135.eu-north-1.compute.amazonaws.com)
+
 ![](https://img.shields.io/github/stars/mavenium/pyeditorial)
 [![](https://img.shields.io/github/forks/mavenium/pyeditorial)](https://github.com/mavenium/pyeditorial/fork)
 [![](https://img.shields.io/github/issues/mavenium/pyeditorial)](https://github.com/mavenium/pyeditorial/issues)
@@ -30,7 +32,7 @@ git clone https://github.com/ceydaduzgec/dev-environment-setup.git
 
 ```bash
 bash tools/start-macos.sh
-bash tools/start-linux.sh
+sudo bash tools/start-linux.sh
 ```
 
 4. Go to  `http://127.0.0.1:80/` or just type `localhost` in your browser to use project
