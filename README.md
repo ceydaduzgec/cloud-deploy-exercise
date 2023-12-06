@@ -41,3 +41,5 @@ sudo bash tools/start-linux.sh
 
 - [Notes](https://github.com/ceydaduzgec/dev-environment-setup/blob/master/docs/notes.md)
 - [Linting](https://github.com/ceydaduzgec/dev-environment-setup/blob/master/docs/linting.md)
+
+![Architecture](./docs/architecture.drawio.png)
