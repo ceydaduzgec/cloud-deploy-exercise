@@ -2,7 +2,7 @@
 
 A free, open-source Blog CMS based on the "Django" and "Editorial" HTML5 theme.
 
-Deployed on [AWS] without HTTPS (ec2-51-20-142-135.eu-north-1.compute.amazonaws.com)
+Deployed on [AWS](http://ec2-51-20-142-135.eu-north-1.compute.amazonaws.com) without HTTPS.
 
 ![](https://img.shields.io/github/stars/mavenium/pyeditorial)
 [![](https://img.shields.io/github/forks/mavenium/pyeditorial)](https://github.com/mavenium/pyeditorial/fork)
