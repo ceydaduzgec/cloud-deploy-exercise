@@ -13,6 +13,7 @@
 - [x] Test linux script on linux machine
 - [ ] Add gunicorn
 - [ ] Delete unused dangling images
+- [ ] Serve static files with nginx
 
 ## Links
 
